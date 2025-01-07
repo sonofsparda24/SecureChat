@@ -115,23 +115,6 @@ dbHandler.connectToDB("jdbc:mysql://localhost:3306/ChatApp", "your-username", "y
 3. **View Chat History**:
    - All sent and received messages are saved in the local MySQL database.
 
-## Project Structure
-SecureChat/
-├── src/
-│ ├── com/
-│ │ ├── chatapp/
-│ │ │ ├── ChatAppLauncher.java
-│ │ │ ├── ChatPeer.java
-│ │ │ ├── gui/
-│ │ │ │ ├── ChatGUI.java
-│ │ │ ├── util/
-│ │ │ │ ├── RSAUtil.java
-│ │ │ ├── database/
-│ │ │ │ ├── DatabaseHandler.java
-├── lib/
-│ ├── mysql-connector-java-8.0.30.jar
-├── README.md
-
 
 ## Troubleshooting
 
