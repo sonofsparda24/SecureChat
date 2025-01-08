@@ -1,10 +1,13 @@
 package chatapp;
 
+import gui.ChatGUI;
+
 public class ChatAppLauncher {
+    public static void main(String[] args) {
+        ChatPeer chatPeer = new ChatPeer();
+        chatPeer.startServer(1234); // Start server on port 1234
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
+        ChatGUI chatGUI = new ChatGUI(chatPeer);
+        chatGUI.initGUI();
+    }
 }
