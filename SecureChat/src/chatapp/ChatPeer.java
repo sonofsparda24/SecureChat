@@ -19,7 +19,7 @@ public class ChatPeer {
 
     public ChatPeer() {
         dbHandler = new DatabaseHandler();
-        dbHandler.connectToDB("jdbc:mysql://localhost:3306/ChatApp", "root", "youssef");
+        dbHandler.connectToDB("jdbc:mysql://localhost:3306/SecureChat", "root", "youssef");
         rsaKeyPair = RSAUtil.generateKeyPair();
         publicKey = rsaKeyPair.getPublic();
     }

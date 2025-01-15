@@ -8,6 +8,6 @@ public class ChatAppLauncher {
         chatPeer.startServer(1234); // Start server on port 1234
 
         ChatGUI chatGUI = new ChatGUI(chatPeer);
-        chatGUI.initGUI();
+        ((ChatGUI) chatGUI).initGUI();
     }
 }
