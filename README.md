@@ -57,7 +57,6 @@ Before running SecureChat, ensure you have the following installed:
        is_sent BOOLEAN NOT NULL,
        timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP
    );
-```
 
 3. Verify the setup by running:
    ```sql
