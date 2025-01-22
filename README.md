@@ -64,7 +64,7 @@ Before running SecureChat, ensure you have the following installed:
    USE ChatApp;
    SHOW TABLES;
    DESCRIBE Messages;
-```
+
 
 ### 2. Set Up the Project:
 
